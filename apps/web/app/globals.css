@@ -73,7 +73,9 @@
 
   body {
     @apply bg-background text-foreground transition-colors duration-300;
-    font-feature-settings: "rlig" 1, "calt" 1;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
   }
 }
 
@@ -169,7 +171,7 @@
   }
 
   .shimmer-btn::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -184,8 +186,8 @@
   }
 
   .input-underline-glow:focus {
-    border-color: #D4AF37 !important;
-    box-shadow: 0 1px 0 0 #D4AF37;
+    border-color: #d4af37 !important;
+    box-shadow: 0 1px 0 0 #d4af37;
   }
 
   .animate-fade-in {

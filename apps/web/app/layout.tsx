@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Montserrat, Great_Vibes } from "next/font/google";
+import { Great_Vibes, Montserrat, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -20,8 +20,11 @@ const greatVibes = Great_Vibes({
 
 export const metadata: Metadata = {
   title: "Himalayan Gold | Premium Organic Honey",
-  description: "Harvested from the high altitudes of the Himalayas, our medicinal-grade honey is a gift of nature.",
+  description:
+    "Harvested from the high altitudes of the Himalayas, our medicinal-grade honey is a gift of nature.",
 };
+
+import { AuthProvider } from "@/components/auth/AuthProvider";
 
 export default function RootLayout({
   children,
@@ -48,8 +51,10 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${playfair.variable} ${montserrat.variable} ${greatVibes.variable} font-body`}>
-        {children}
+      <body
+        className={`${playfair.variable} ${montserrat.variable} ${greatVibes.variable} font-body`}
+      >
+        <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
   );

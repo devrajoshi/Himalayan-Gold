@@ -14,9 +14,11 @@ Himalayan Gold is a premium, state-of-the-art web application dedicated to bring
 ## 📦 Monorepo Structure
 
 ### Apps
+
 - [`apps/web`](./apps/web): The main customer-facing storefront and member dashboard.
 
 ### Packages
+
 - `packages/shared`: Common components and design tokens.
 - `packages/eslint-config`: Shared ESLint configurations.
 - `packages/typescript-config`: Shared TypeScript configurations.
@@ -56,6 +58,7 @@ bun run lint
 ## 💎 Project Philosophy
 
 Himalayan Gold isn't just a shop; it's an experience. We prioritize:
+
 - **Visual Excellence**: Premium, dark-themed designs with interactive hexagon patterns.
 - **Smooth Interaction**: Fluid animations and highly responsive interfaces.
 - **User Journey**: A seamless flow from landing to product exploration to dashboard management.

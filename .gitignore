@@ -43,3 +43,9 @@ yarn-error.log*
 *.pem
 *.tsbuildinfo
 next-env.d.ts
+
+# Docker
+postgres_data/
+
+# Prisma
+apps/api/prisma/migrations/**/migration_lock.toml

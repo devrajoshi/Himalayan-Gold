@@ -1,15 +1,14 @@
-import content from "../content.json";
-import { Navbar } from "@/components/shared/Navbar";
-import { Footer } from "@/components/shared/Footer";
-import { HeroSection } from "@/components/sections/HeroSection";
+import { CartDrawer } from "@/components/features/cart/CartDrawer";
 import { AboutSection } from "@/components/sections/AboutSection";
-import { BestSellersSection } from "@/components/sections/BestSellersSection";
 import { BenefitsSection } from "@/components/sections/BenefitsSection";
+import { BestSellersSection } from "@/components/sections/BestSellersSection";
+import { HeroSection } from "@/components/sections/HeroSection";
+import { HoneycombGallery } from "@/components/sections/HoneycombGallery";
 import { ReviewsSection } from "@/components/sections/ReviewsSection";
 import { SaleBanner } from "@/components/sections/SaleBanner";
-import { CartDrawer } from "@/components/features/cart/CartDrawer";
-
-import { HoneycombGallery } from "@/components/sections/HoneycombGallery";
+import { Footer } from "@/components/shared/Footer";
+import { Navbar } from "@/components/shared/Navbar";
+import content from "../content.json";
 
 export default function Home() {
   return (

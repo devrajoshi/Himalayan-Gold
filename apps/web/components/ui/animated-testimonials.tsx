@@ -2,7 +2,7 @@
 
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 import { Star, StarHalf } from "lucide-react";
-import { motion, AnimatePresence } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
 
 import { useEffect, useState } from "react";
 
@@ -69,9 +69,7 @@ export const AnimatedTestimonials = ({
                     scale: isActive(index) ? 1 : 0.95,
                     z: isActive(index) ? 0 : -100,
                     rotate: isActive(index) ? 0 : randomRotateY(),
-                    zIndex: isActive(index)
-                      ? 40
-                      : testimonials.length + 2 - index,
+                    zIndex: isActive(index) ? 40 : testimonials.length + 2 - index,
                     y: isActive(index) ? [0, -80, 0] : 0,
                   }}
                   exit={{
@@ -108,12 +106,8 @@ export const AnimatedTestimonials = ({
               exit={{ y: -20, opacity: 0 }}
               transition={{ duration: 0.2, ease: "easeInOut" }}
             >
-              <h3 className="text-2xl font-bold text-black dark:text-white">
-                {current.name}
-              </h3>
-              <p className="text-sm text-gray-500 dark:text-neutral-500">
-                {current.designation}
-              </p>
+              <h3 className="text-2xl font-bold text-black dark:text-white">{current.name}</h3>
+              <p className="text-sm text-gray-500 dark:text-neutral-500">{current.designation}</p>
               {current.rating !== undefined && (
                 <div className="mt-4 flex items-center gap-0.5">
                   {[...Array(Math.floor(current.rating))].map((_, i) => (
