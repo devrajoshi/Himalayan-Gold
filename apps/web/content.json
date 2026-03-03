@@ -1,0 +1,383 @@
+{
+    "site": {
+        "name": "Himalayan Gold",
+        "tagline": "Premium Organic Honey"
+    },
+    "navigation": [
+        {
+            "label": "Home",
+            "href": "/"
+        },
+        {
+            "label": "The Source",
+            "href": "#about"
+        },
+        {
+            "label": "Shop Honey",
+            "href": "#shop"
+        },
+        {
+            "label": "Benefits",
+            "href": "#benefits"
+        }
+    ],
+    "hero": {
+        "script": "Pure Organic",
+        "title": "Himalayan Gold",
+        "description": "Harvested from the high altitudes of the Himalayas, our medicinal-grade honey is a gift of nature, untouched by chemicals and rich in rare floral nectar.",
+        "cta": {
+            "label": "Shop Now",
+            "href": "#shop"
+        },
+        "stats": [
+            {
+                "label": "Organic",
+                "value": "100%"
+            },
+            {
+                "label": "Altitude",
+                "value": "4500m+"
+            },
+            {
+                "label": "Medicinal",
+                "value": "Grade A"
+            }
+        ]
+    },
+    "about": {
+        "script": "Our Heritage",
+        "title": "The Source of Life",
+        "content": [
+            "Nestled in the pristine, snow-capped peaks of the Himalayas, our honey bees forage on rare medicinal plants and wildflowers that only grow at extreme altitudes. This untouched environment creates a unique nutrient profile found nowhere else on Earth.",
+            "We work directly with local traditional beekeeping communities, ensuring ethical harvesting practices that protect the colonies and respect the sacred mountains that provide us this liquid gold."
+        ],
+        "verifiedText": "Lab Tested & Authenticity Guaranteed",
+        "images": [
+            {
+                "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuBKb1MKujYxlnbqrKQFq-aFVgb_iKE6wZRt4GiO3gU0mLRZOMPM_d5BvlqHvpXPo92QlcmJtplwF2fvD106QnCpwfjrjFd42LXRT7ZfBswWKGo2hRexpftf_-Fb8hvBb38sSqZFV4lXRuifV_SXcqFGVtd2taerE-aP0SIPqRppsIkyi5PmpwkU1em3A4t3n1d3ss7J6EngQTadZr3yuOK3lTIiaUUcEm5y1ntBaf6OvYrEBP5xVS0ED3ehfUBh5xent-ydQfwI3fY",
+                "alt": "Mountains"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuBe20jmDCnTAadVNgRY1rjIVukVpAadXYFG9-44fk2tE3hKQIINiCluLWh5GRqGtpAJ1op_4i0JbJ-LXdqyP1MoVeQzstQNanB5to0S4QCLdLaog__Bz5wO3N16WiceAqTejwsJ_2r9u50OW1XD4DHulaw0b5W_7unDqwPiOdN2_69cEVZG7xK6Ku91iW_GvMO1HjVfnYdLMvRJdhy-rcWPN3bGRAeh_Qo-g8ydNCFcnK1C5VRKTkeWl4D0rWHnXg8XyNY5OBHZmSk",
+                "alt": "Extraction"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuCBYvwaMvTp1ax_wl-iTxA2flYztOXUM_U2kjCfzGhnNfJPalkzcbNadjOcFHtcZ1nRVtUxhG4RQX5Gvre7edY9PtQtGDdaGCheoZUJaKsaahdMPsxD0QoCNo7GfW-G8i31A4z18wDsLMnx3n0abcBzsmIgyyEtnjoZOGRyeTvMwzbYK50T7Q7_vvUQTfSYVhYvxfGutBfOXoaB_Lh5q94lL-0oRs8Mt11431GVYw93l8h8su2X3wCwNHdTyLeU_xMsPdsPWkiwh9k",
+                "alt": "Beehives"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuBcWlATxkEN_-Zbg41G_m2oN7ocQaQMSt2zDyrY1ehlCf883MxxCs2mN0jRJRRctsWrZmGDl9yheLoYpv9JPQZexQCLLOjGu9_NWMjD6C77NGcvCWJ0I-wMZJAd1nBvjA2F0Cz7H6-W5esp9Fr7vYdO2EcnAhwVZ9CrVTpj01BQOOQ__kDBmhlklS1sKlDcJpKhDF-MTszXN3enaBtM_KI740deRY-n1QbzZFycflwmT11xtrBh1Zy2HZevfZKClTwTSJQU7UDZJ5E",
+                "alt": "Honeycomb"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuBe20jmDCnTAadVNgRY1rjIVukVpAadXYFG9-44fk2tE3hKQIINiCluLWh5GRqGtpAJ1op_4i0JbJ-LXdqyP1MoVeQzstQNanB5to0S4QCLdLaog__Bz5wO3N16WiceAqTejwsJ_2r9u50OW1XD4DHulaw0b5W_7unDqwPiOdN2_69cEVZG7xK6Ku91iW_GvMO1HjVfnYdLMvRJdhy-rcWPN3bGRAeh_Qo-g8ydNCFcnK1C5VRKTkeWl4D0rWHnXg8XyNY5OBHZmSk",
+                "alt": "Extraction"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuCBYvwaMvTp1ax_wl-iTxA2flYztOXUM_U2kjCfzGhnNfJPalkzcbNadjOcFHtcZ1nRVtUxhG4RQX5Gvre7edY9PtQtGDdaGCheoZUJaKsaahdMPsxD0QoCNo7GfW-G8i31A4z18wDsLMnx3n0abcBzsmIgyyEtnjoZOGRyeTvMwzbYK50T7Q7_vvUQTfSYVhYvxfGutBfOXoaB_Lh5q94lL-0oRs8Mt11431GVYw93l8h8su2X3wCwNHdTyLeU_xMsPdsPWkiwh9k",
+                "alt": "Beehives"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuBcWlATxkEN_-Zbg41G_m2oN7ocQaQMSt2zDyrY1ehlCf883MxxCs2mN0jRJRRctsWrZmGDl9yheLoYpv9JPQZexQCLLOjGu9_NWMjD6C77NGcvCWJ0I-wMZJAd1nBvjA2F0Cz7H6-W5esp9Fr7vYdO2EcnAhwVZ9CrVTpj01BQOOQ__kDBmhlklS1sKlDcJpKhDF-MTszXN3enaBtM_KI740deRY-n1QbzZFycflwmT11xtrBh1Zy2HZevfZKClTwTSJQU7UDZJ5E",
+                "alt": "Honeycomb"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuCBYvwaMvTp1ax_wl-iTxA2flYztOXUM_U2kjCfzGhnNfJPalkzcbNadjOcFHtcZ1nRVtUxhG4RQX5Gvre7edY9PtQtGDdaGCheoZUJaKsaahdMPsxD0QoCNo7GfW-G8i31A4z18wDsLMnx3n0abcBzsmIgyyEtnjoZOGRyeTvMwzbYK50T7Q7_vvUQTfSYVhYvxfGutBfOXoaB_Lh5q94lL-0oRs8Mt11431GVYw93l8h8su2X3wCwNHdTyLeU_xMsPdsPWkiwh9k",
+                "alt": "Beehives"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuBcWlATxkEN_-Zbg41G_m2oN7ocQaQMSt2zDyrY1ehlCf883MxxCs2mN0jRJRRctsWrZmGDl9yheLoYpv9JPQZexQCLLOjGu9_NWMjD6C77NGcvCWJ0I-wMZJAd1nBvjA2F0Cz7H6-W5esp9Fr7vYdO2EcnAhwVZ9CrVTpj01BQOOQ__kDBmhlklS1sKlDcJpKhDF-MTszXN3enaBtM_KI740deRY-n1QbzZFycflwmT11xtrBh1Zy2HZevfZKClTwTSJQU7UDZJ5E",
+                "alt": "Honeycomb"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuBe20jmDCnTAadVNgRY1rjIVukVpAadXYFG9-44fk2tE3hKQIINiCluLWh5GRqGtpAJ1op_4i0JbJ-LXdqyP1MoVeQzstQNanB5to0S4QCLdLaog__Bz5wO3N16WiceAqTejwsJ_2r9u50OW1XD4DHulaw0b5W_7unDqwPiOdN2_69cEVZG7xK6Ku91iW_GvMO1HjVfnYdLMvRJdhy-rcWPN3bGRAeh_Qo-g8ydNCFcnK1C5VRKTkeWl4D0rWHnXg8XyNY5OBHZmSk",
+                "alt": "Extraction"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuCBYvwaMvTp1ax_wl-iTxA2flYztOXUM_U2kjCfzGhnNfJPalkzcbNadjOcFHtcZ1nRVtUxhG4RQX5Gvre7edY9PtQtGDdaGCheoZUJaKsaahdMPsxD0QoCNo7GfW-G8i31A4z18wDsLMnx3n0abcBzsmIgyyEtnjoZOGRyeTvMwzbYK50T7Q7_vvUQTfSYVhYvxfGutBfOXoaB_Lh5q94lL-0oRs8Mt11431GVYw93l8h8su2X3wCwNHdTyLeU_xMsPdsPWkiwh9k",
+                "alt": "Beehives"
+            },
+            {
+                "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuBcWlATxkEN_-Zbg41G_m2oN7ocQaQMSt2zDyrY1ehlCf883MxxCs2mN0jRJRRctsWrZmGDl9yheLoYpv9JPQZexQCLLOjGu9_NWMjD6C77NGcvCWJ0I-wMZJAd1nBvjA2F0Cz7H6-W5esp9Fr7vYdO2EcnAhwVZ9CrVTpj01BQOOQ__kDBmhlklS1sKlDcJpKhDF-MTszXN3enaBtM_KI740deRY-n1QbzZFycflwmT11xtrBh1Zy2HZevfZKClTwTSJQU7UDZJ5E",
+                "alt": "Honeycomb"
+            }
+        ]
+    },
+    "saleBanner": {
+        "title": "Limited Harvest Sale",
+        "description": "Get 20% discount on our Summer Wildflower collection.",
+        "code": "GOLD20",
+        "cta": "Claim Discount"
+    },
+    "bestSellers": {
+        "script": "Curated Collection",
+        "title": "Best Sellers",
+        "products": [
+            {
+                "id": "1",
+                "name": "Wildflower Blossom",
+                "price": 34.00,
+                "description": "4500m Altitude, High Pollen Count",
+                "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB2Aof232WBcT9vUxgGGELeYnhWZPpL5SXIMlo55N95DRtVDEiz-iwdQ41cdcnEtZ00rTqD9XKBX0aWIqBpQpQ1uYviKbfcZ3wcq6eAWR8r60QBd5Ww5Sr-7gZB9dnyhqkLv_nnnPpxiHOuHZa7m7a3bJaudZGx0J1-loArJjd9fWGdJf-m1jdAwTv3KGRgVqBH3hCz7uAAK2SFGSagDhdrWPdnJGH72gCgob9Tv6rj_TIAtNivxCjh06wgERkvQaVJ9JLh-rsyw8A"
+            },
+            {
+                "id": "2",
+                "name": "Royal Sidr Reserve",
+                "price": 89.00,
+                "description": "Limited Edition, Deep Amber Hue",
+                "tag": "Medicinal Grade",
+                "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAnrbtWCwAGWwf6JFKN5wu4eVwgUC_7LSLD9A-l3wKuBk5TKFC3iRcMCT_W7NS9bzBMWie6fJ6gPTLeb7IhCh5t7qVlVYXetyomXjp4TdV44I-eLp6iDg67ni3M-SiMm84O-iitV6J_b93_SBQ3y6CRZsUSK-r1pIaO7UkJd7ceoW3iMZLwZk9IOD0yEfqG_Exzt79lNPWDVo9vLxhKUMoOYfPRmNf1IaB7xkfLY2RoAAkPu1ofblOfgK1F1M8dEieaQeaLMdHidW0"
+            },
+            {
+                "id": "3",
+                "name": "White Mountain",
+                "price": 42.00,
+                "description": "Creamy Texture, Delicate Taste",
+                "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAI7BpP8rUMVkexM8mcc_SDOrdAW19V92-M3hnuH0PEx6PcRND3B9Zry-vNhoUDGlokFGwq253OjVzBTDIHlrPzi19v721UtrTxhKEvuBsVRvVsq3htEmvb5-MmMHHkjQ5gGLt_vG2PTowwHMi-BiJYLdFdYfkHw52Lg5isn0GrX5HbKoTgagFwo14KCyWafTHf6SyIZu9I0hrH01kgWUBoQ227DSAoqJGoXXa3RCqAonO3Cj9QsjmKvXSkWcGJ_zSq6sVY_s5iOA0"
+            },
+            {
+                "id": "4",
+                "name": "Wildflower Blossom",
+                "price": 34.00,
+                "description": "4500m Altitude, High Pollen Count",
+                "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB2Aof232WBcT9vUxgGGELeYnhWZPpL5SXIMlo55N95DRtVDEiz-iwdQ41cdcnEtZ00rTqD9XKBX0aWIqBpQpQ1uYviKbfcZ3wcq6eAWR8r60QBd5Ww5Sr-7gZB9dnyhqkLv_nnnPpxiHOuHZa7m7a3bJaudZGx0J1-loArJjd9fWGdJf-m1jdAwTv3KGRgVqBH3hCz7uAAK2SFGSagDhdrWPdnJGH72gCgob9Tv6rj_TIAtNivxCjh06wgERkvQaVJ9JLh-rsyw8A"
+            },
+            {
+                "id": "5",
+                "name": "Royal Sidr Reserve",
+                "price": 89.00,
+                "description": "Limited Edition, Deep Amber Hue",
+                "tag": "Medicinal Grade",
+                "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAnrbtWCwAGWwf6JFKN5wu4eVwgUC_7LSLD9A-l3wKuBk5TKFC3iRcMCT_W7NS9bzBMWie6fJ6gPTLeb7IhCh5t7qVlVYXetyomXjp4TdV44I-eLp6iDg67ni3M-SiMm84O-iitV6J_b93_SBQ3y6CRZsUSK-r1pIaO7UkJd7ceoW3iMZLwZk9IOD0yEfqG_Exzt79lNPWDVo9vLxhKUMoOYfPRmNf1IaB7xkfLY2RoAAkPu1ofblOfgK1F1M8dEieaQeaLMdHidW0"
+            },
+            {
+                "id": "6",
+                "name": "White Mountain",
+                "price": 42.00,
+                "description": "Creamy Texture, Delicate Taste",
+                "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAI7BpP8rUMVkexM8mcc_SDOrdAW19V92-M3hnuH0PEx6PcRND3B9Zry-vNhoUDGlokFGwq253OjVzBTDIHlrPzi19v721UtrTxhKEvuBsVRvVsq3htEmvb5-MmMHHkjQ5gGLt_vG2PTowwHMi-BiJYLdFdYfkHw52Lg5isn0GrX5HbKoTgagFwo14KCyWafTHf6SyIZu9I0hrH01kgWUBoQ227DSAoqJGoXXa3RCqAonO3Cj9QsjmKvXSkWcGJ_zSq6sVY_s5iOA0"
+            }
+        ]
+    },
+    "gallery": {
+        "title": "The Golden Harvest",
+        "description": "A curated collection of nature's finest moments, from the heart of our hives.",
+        "rows": [
+            4,
+            3,
+            2
+        ],
+        "images": [
+            {
+                "src": "/images/honeycomb.png",
+                "alt": "Natural Honeycomb"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1587334274328-64186a804eee?q=80&w=500&auto=format&fit=crop",
+                "alt": "Beekeeping tools"
+            },
+            {
+                "src": "/images/beekeeper_working_1772471861937.png",
+                "alt": "Beekeeper working"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1473973266408-ed4e27fca830?q=80&w=500&auto=format&fit=crop",
+                "alt": "Honey jar"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1596135392284-cd9d380907d0?q=80&w=500&auto=format&fit=crop",
+                "alt": "Bee on flower"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1586940807663-887754388647?q=80&w=500&auto=format&fit=crop",
+                "alt": "Honey dripping"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1594916895311-665cd4775d7e?q=80&w=500&auto=format&fit=crop",
+                "alt": "Honey texture"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?q=80&w=500&auto=format&fit=crop",
+                "alt": "Organic honey"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1599590984817-031478147ced?q=80&w=500&auto=format&fit=crop",
+                "alt": "Beehive"
+            }
+        ]
+    },
+    "benefits": {
+        "script": "Pure Goodness",
+        "title": "Why Choose Himalayan Honey?",
+        "description": "Unlike commercial honey which is often blended and pasteurized, Himalayan Gold is a living food. Each jar reflects the specific floral season and altitude where it was produced.",
+        "items": [
+            {
+                "icon": "eco",
+                "title": "Wild Harvested",
+                "description": "Naturally occurring hives found in remote cliffs, harvested without artificial intervention."
+            },
+            {
+                "icon": "health_and_safety",
+                "title": "Medicinal Grade",
+                "description": "High antibacterial properties and antioxidant levels exceeding supermarket honey."
+            },
+            {
+                "icon": "science",
+                "title": "Cold Pressed",
+                "description": "Raw and unfiltered, preserving all natural enzymes and delicate aromatic compounds."
+            },
+            {
+                "icon": "public",
+                "title": "Ethical Sourcing",
+                "description": "Fair trade partnerships that directly benefit mountain-dwelling beekeeping families."
+            }
+        ],
+        "testimonial": {
+            "quote": "Our honey contains traces of wild thyme, rhododendron, and Himalayan cherry, creating a flavor profile that is truly unique to the roof of the world.",
+            "author": "Head Bee Keeper, Ladakh"
+        }
+    },
+    "reviews": {
+        "script": "Voices of Gold",
+        "title": "Customer Reviews",
+        "items": [
+            {
+                "name": "Elena R.",
+                "rating": 5,
+                "comment": "I've tried honey from all over the world, but the Himalayan Gold Sidr reserve is on another level. The complexity of flavors is astounding and it feels incredibly healing."
+            },
+            {
+                "name": "Marcus Thorne",
+                "rating": 4.5,
+                "comment": "The White Mountain honey has such a delicate floral finish. It's my daily morning ritual with tea. You can truly taste the purity of the mountains."
+            }
+        ],
+        "cta": "See More Reviews"
+    },
+    "footer": {
+        "about": "Bringing the purest, most potent medicinal honey from the world's highest peaks to your doorstep. Ethically sourced, scientifically verified.",
+        "links": [
+            {
+                "title": "Explore",
+                "items": [
+                    {
+                        "label": "Our Story",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Health Benefits",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Wholesale",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Gift Sets",
+                        "href": "#"
+                    }
+                ]
+            },
+            {
+                "title": "Support",
+                "items": [
+                    {
+                        "label": "Track Order",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Shipping Policy",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Lab Results",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Contact Us",
+                        "href": "#"
+                    }
+                ]
+            }
+        ],
+        "newsletter": {
+            "title": "Newsletter",
+            "description": "Join our inner circle for harvest updates and exclusive offers.",
+            "placeholder": "Your email address",
+            "cta": "Subscribe"
+        },
+        "copyright": "© 2024 Himalayan Gold Honey Co. All rights reserved."
+    },
+    "auth": {
+        "login": {
+            "title": "Welcome Back",
+            "subtitle": "Continue your journey into the heart of the Himalayas.",
+            "emailLabel": "Email Address",
+            "passwordLabel": "Password",
+            "rememberMe": "Remember Me",
+            "forgotPassword": "Forgot Password?",
+            "submit": "Sign In",
+            "noAccount": "Don't have an account?",
+            "registerLabel": "Create Account"
+        },
+        "register": {
+            "title": "Begin Your Journey",
+            "subtitle": "Join our community of honey connoisseurs and ethical seekers.",
+            "nameLabel": "Full Name",
+            "emailLabel": "Email Address",
+            "passwordLabel": "Create Password",
+            "confirmPasswordLabel": "Confirm Password",
+            "agreeTerms": "I agree to the Terms of Service and Privacy Policy",
+            "submit": "Create Account",
+            "hasAccount": "Already a member?",
+            "loginLabel": "Sign In"
+        },
+        "forgot": {
+            "title": "Restore Your Journey",
+            "subtitle": "Enter your email address to receive a recovery link.",
+            "emailLabel": "Email Address",
+            "submit": "Send Reset Link",
+            "backToLogin": "Back to Login"
+        },
+        "reset": {
+            "title": "Define Your New Path",
+            "subtitle": "Please choose a strong password to secure your account.",
+            "passwordLabel": "New Password",
+            "confirmLabel": "Confirm New Password",
+            "submit": "Update Password",
+            "backToLogin": "Back to Login"
+        }
+    },
+    "dashboard": {
+        "welcome": "Welcome back, {name}",
+        "subtitle": "Your Himalayan journey continues.",
+        "nav": {
+            "overview": "Overview",
+            "orders": "Order History",
+            "details": "My Details",
+            "rewards": "Honey Rewards",
+            "addresses": "Addresses",
+            "logout": "Logout"
+        },
+        "stats": {
+            "orders": "Total Orders",
+            "points": "Reward Points",
+            "tier": "Membership Tier"
+        },
+        "orders": {
+            "title": "Recent Orders",
+            "columns": {
+                "id": "Order ID",
+                "date": "Date",
+                "status": "Status",
+                "total": "Total",
+                "action": "Action"
+            }
+        },
+        "harvest": {
+            "title": "Next Harvest",
+            "tag": "Early Access",
+            "cta": "Notify Me"
+        }
+    }
+}

@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 50% 98%;
+    --foreground: 160 80% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 160 80% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 160 80% 10%;
+
+    --primary: 46 68% 49%;
+    --primary-foreground: 160 80% 10%;
+
+    --secondary: 160 85% 14%;
+    --secondary-foreground: 46 68% 49%;
+
+    --muted: 160 20% 96%;
+    --muted-foreground: 160 10% 40%;
+
+    --accent: 46 68% 49%;
+    --accent-foreground: 160 80% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 160 30% 90%;
+    --input: 160 30% 90%;
+    --ring: 46 68% 49%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 160 45% 7%;
+    --foreground: 30 50% 98%;
+
+    --card: 160 45% 7%;
+    --card-foreground: 30 50% 98%;
+
+    --popover: 160 45% 7%;
+    --popover-foreground: 30 50% 98%;
+
+    --primary: 46 68% 49%;
+    --primary-foreground: 160 45% 7%;
+
+    --secondary: 160 85% 14%;
+    --secondary-foreground: 46 68% 49%;
+
+    --muted: 160 30% 15%;
+    --muted-foreground: 160 10% 65%;
+
+    --accent: 46 68% 49%;
+    --accent-foreground: 30 50% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 160 30% 15%;
+    --input: 160 30% 15%;
+    --ring: 46 68% 49%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  .hexagon-container {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  }
+
+  .honeycomb-bg {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cpath fill='%23D4AF37' fill-opacity='0.05' d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.32v12.86l11 6.35 11-6.35V17.32L14 10.97 3 17.32z'%3E%3C/path%3E%3C/svg%3E");
+  }
+
+  .hexagon {
+    position: relative;
+    height: 180px;
+    aspect-ratio: 0.866;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 6px solid white;
+  }
+
+  .hexagon:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.2);
+    z-index: 20;
+  }
+
+  .hexagon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: polygon(50% 1%, 99% 26%, 99% 74%, 50% 99%, 1% 74%, 1% 26%);
+  }
+
+  /* Honeycomb Grid Container */
+  .honeycomb-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 100px auto;
+    gap: 15px;
+  }
+
+  /* Row staggering logic */
+  .honeycomb-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: -45px;
+    /* Half of height adjustment for staggering */
+  }
+
+  .honeycomb-row:nth-child(even) {
+    margin-left: 0;
+  }
+
+  /* ── Auth page utilities ── */
+
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .shimmer-btn {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .shimmer-btn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.4), transparent);
+    transform: translateX(-100%);
+  }
+
+  .shimmer-btn:hover::after {
+    animation: shimmer 1.5s infinite;
+  }
+
+  .input-underline-glow:focus {
+    border-color: #D4AF37 !important;
+    box-shadow: 0 1px 0 0 #D4AF37;
+  }
+
+  .animate-fade-in {
+    animation: fade-in-up 0.8s ease-out forwards;
+  }
+}
